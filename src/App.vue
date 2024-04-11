@@ -1,9 +1,12 @@
 <script>
-import AppHeader from './components/AppHeader.vue'
+import AppHeader from './components/AppHeader.vue';
+import AppMain from './components/AppMain.vue';
+
 
 export default{
   components: {
-    AppHeader
+    AppHeader,
+    AppMain
   }
 }
 </script>
@@ -12,6 +15,9 @@ export default{
   <header>
     <AppHeader></AppHeader>
   </header>
+  <main>
+    <AppMain></AppMain>
+  </main>
 </template>
 
 <style lang="scss">
