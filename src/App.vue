@@ -2,13 +2,14 @@
 import AppHeader from './components/AppHeader.vue';
 import AppMain from './components/AppMain.vue';
 import BottomMain from './components/BottomMain.vue';
-
+import TopFooter from './components/TopFooter.vue';
 
 export default{
   components: {
     AppHeader,
     AppMain,
-    BottomMain
+    BottomMain,
+    TopFooter
   }
 }
 </script>
@@ -22,6 +23,7 @@ export default{
   <AppMain></AppMain>
   <BottomMain></BottomMain>
   </main>
+  <TopFooter></TopFooter>
 </template>
 
 <style lang="scss">
