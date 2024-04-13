@@ -5,13 +5,14 @@ import BottomMain from './components/BottomMain.vue';
 import TopFooter from './components/TopFooter.vue';
 import AppHero from './components/AppHero.vue';
 
+
 export default{
   components: {
     AppHeader,
     AppMain,
     BottomMain,
     TopFooter,
-    AppHero
+    AppHero,
   }
 }
 </script>

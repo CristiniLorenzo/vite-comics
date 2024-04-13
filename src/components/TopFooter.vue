@@ -79,6 +79,18 @@
                             <li>
                                 character
                             </li>
+                            <li>
+                                character
+                            </li>
+                            <li>
+                                character
+                            </li>
+                            <li>
+                                character
+                            </li>
+                            <li>
+                                character
+                            </li>
                         </ul>
                         
                     </div>
@@ -129,7 +141,7 @@ footer{
             background-position: 100%;
 
                 .footer-left{
-                    width: 30%;
+                    width: 35%;
                     display: flex;
 
                      .col-33{
@@ -137,11 +149,12 @@ footer{
                         padding: 20px;
 
                             h4{
-                                padding: 10px 0;
+                                padding: 15px 0;
                             }
 
-                            ul{
-                                
+                            li{
+                                padding-bottom: 3px;
+                                color: gray;
                             }
                      }
                 }
